@@ -24,7 +24,7 @@ python main.py pipelineFileName > logs/pipeline_num.log
 
 
 
-### Comparisons between different pipelines
+## Comparisons between different pipelines
 Pipeline 1 - Four-stage CPU pipeline with PyTorch's RPC framework
 Approach: 
 Dividing the input data to optimal number of microbatches, with optimal model partition.
